@@ -1,0 +1,42 @@
+
+[
+  {
+    "id": "game-unique-001",
+    "name": "Cosmic Voyager AI",
+    "description": "An AI-driven space exploration game where strategic decisions and resource management determine your cosmic destiny. Features adaptive AI opponents.",
+    "imageUrl": "https://picsum.photos/seed/cosmicgame/600/400",
+    "appUrl": "https://hereandnowai.com/games/cosmic-voyager",
+    "tags": ["strategy", "ai", "space", "simulation", "sci-fi"],
+    "version": "1.0.0",
+    "lastUpdated": "2024-08-01",
+    "status": "beta",
+    "category": "Strategy Games",
+    "ai_engineer": ["Raj K.", "Priya S."]
+  },
+  {
+    "id": "game-unique-002",
+    "name": "Puzzle Master AI",
+    "description": "Challenge your mind with AI-generated puzzles that adapt to your skill level. Endless variations and increasing difficulty.",
+    "imageUrl": "https://picsum.photos/seed/puzzlegame/600/400",
+    "appUrl": "https://hereandnowai.com/games/puzzle-master",
+    "tags": ["puzzle", "ai", "brain teaser", "logic"],
+    "version": "0.8.0",
+    "lastUpdated": "2024-07-20",
+    "status": "alpha",
+    "category": "Puzzle Games",
+    "ai_engineer": "Anjali M."
+  },
+  {
+    "id": "game-unique-003",
+    "name": "AI Dungeon Chronicles",
+    "description": "A text-based adventure game powered by a sophisticated AI storyteller. Every playthrough is unique, shaped by your choices.",
+    "imageUrl": "https://picsum.photos/seed/dungeonchron/600/400",
+    "appUrl": "https://hereandnowai.com/games/dungeon-chronicles",
+    "tags": ["text adventure", "rpg", "ai", "storytelling", "interactive fiction"],
+    "version": "1.2.0",
+    "lastUpdated": "2024-06-10",
+    "status": "live",
+    "category": "Role-Playing Games",
+    "ai_engineer": "BK"
+  }
+]

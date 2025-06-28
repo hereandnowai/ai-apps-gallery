@@ -1,0 +1,51 @@
+[
+  {
+    "id": "eng1",
+    "name": "Sakthi KANNAN",
+    "photoUrl": "",
+    "role": "Junior AI Engineer",
+    "bio": "Specializing in natural language processing and machine learning models for conversational AI.",
+    "githubUrl": "https://github.com/adhhhithya"
+  },
+  {
+    "id": "eng2",
+    "name": "Adhithya J",
+    "photoUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/ai_engineers/Screenshot_2025-06-28_00-51-19.png",
+    "role": "Junior AI Engineer",
+    "bio": "Expert in computer vision and deep learning applications for image recognition.",
+    "githubUrl": "https://github.com/adhhhithya",
+    "isEngineerOfTheMonth": true
+  },
+  {
+    "id": "eng3",
+    "name": "Bilmia Binson",
+    "photoUrl": "",
+    "role": "Junior AI Engineer",
+    "bio": "Focuses on reinforcement learning and AI ethics in autonomous systems.",
+    "githubUrl": ""
+  },
+  {
+    "id": "eng4",
+    "name": "Arlin R",
+    "photoUrl": "https://raw.githubusercontent.com/hereandnowai/images/main/engineers/sneha_reddy.jpg",
+    "role": "Junior AI Engineer",
+    "bio": "Passionate about developing AI-powered educational tools and interactive experiences.",
+    "githubUrl": ""
+  },
+  {
+    "id": "eng4",
+    "name": "Rashini",
+    "photoUrl": "https://raw.githubusercontent.com/hereandnowai/images/main/engineers/sneha_reddy.jpg",
+    "role": "Junior AI Engineer",
+    "bio": "Passionate about developing AI-powered educational tools and interactive experiences.",
+    "githubUrl": ""
+  },
+  {
+    "id": "eng5",
+    "name": "Naveen",
+    "photoUrl": "",
+    "role": "Junior AI Engineer",
+    "bio": "Specializes in AI-driven data analytics and predictive modeling.",
+    "githubUrl": ""
+  }
+]

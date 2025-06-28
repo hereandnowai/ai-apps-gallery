@@ -1,0 +1,37 @@
+name: CI/CD Pipeline
+
+on: 
+  push:
+    branches: [ main ] # Adjust branch name if different (e.g., master)
+  pull_request:
+    branches: [ main ] # Adjust branch name if different
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Or your preferred Node.js version
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run build
+
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+      with:
+        server: hexagonkomputers.in
+        username: hereanda # IMPORTANT: Change to secrets.FTP_USERNAME
+        password: Hereandnow@admin1 # IMPORTANT: Change to secrets.FTP_PASSWORD
+        local-dir: ./dist/
+        remote-dir: /public_html/apps.hereandnowai.com/ # Verify this is the correct path on your FTP server
+        protocol: ftp
+        state-name: .ftp-deploy-state.json

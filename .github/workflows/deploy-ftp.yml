@@ -25,20 +25,20 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Deploy built files (dist) with SFTP
-      uses: SamKirkland/SFTP-Deploy-Action@v1.0.0
+    - name: Deploy built files (dist) with SFTP (appleboy/scp-action)
+      uses: appleboy/scp-action@v1.0.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        host: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-path: ./dist/
-        remote-path: ${{ secrets.FTP_REMOTE_PATH }}
+        source: "./dist/*"
+        target: "${{ secrets.FTP_REMOTE_PATH }}"
 
-    - name: Deploy public/data with SFTP
-      uses: SamKirkland/SFTP-Deploy-Action@v1.0.0
+    - name: Deploy public/data with SFTP (appleboy/scp-action)
+      uses: appleboy/scp-action@v1.0.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        host: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-path: ./public/data/
-        remote-path: ${{ secrets.FTP_REMOTE_PATH }}data/
+        source: "./public/data/*"
+        target: "${{ secrets.FTP_REMOTE_PATH }}data/"

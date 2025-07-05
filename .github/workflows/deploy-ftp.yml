@@ -25,22 +25,20 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Deploy built files (dist) with FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+    - name: Deploy built files (dist) with SFTP
+      uses: SamKirkland/SFTP-Deploy-Action@v1.0.0
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./dist/
-        server-directory: ${{ secrets.FTP_REMOTE_PATH }}
-        # No exclude needed here as we want to deploy all built files from dist
+        local-path: ./dist/
+        remote-path: ${{ secrets.FTP_REMOTE_PATH }}
 
-    - name: Deploy public/data with FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+    - name: Deploy public/data with SFTP
+      uses: SamKirkland/SFTP-Deploy-Action@v1.0.0
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./public/data/
-        server-directory: ${{ secrets.FTP_REMOTE_PATH }}data/
-        # No exclude needed here as we want to deploy all data files
+        local-path: ./public/data/
+        remote-path: ${{ secrets.FTP_REMOTE_PATH }}data/

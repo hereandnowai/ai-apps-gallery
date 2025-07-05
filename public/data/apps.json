@@ -1,6 +1,6 @@
 [
   {
-    "id": "app-unique-001",
+    "id": "app-id-001",
     "name": "AI Powered LMS",
     "description": "Transform corporate training with the HERE AND NOW AI-Powered LMS. Our platform uses AI to create personalized learning experiences, automate administrative tasks, and provide actionable analytics to drive learner engagement and skill development.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/lms.png",
@@ -16,13 +16,13 @@
       "HERE AND NOW AI"
     ],
     "version": "1.5.0",
-    "lastUpdated": "2025-06-15",
+    "lastUpdated": "2025-07-01",
     "status": "Live",
     "category": "LMS",
     "ai_engineer": "BK"
   },
   {
-    "id": "app-unique-002",
+    "id": "app-id-002",
     "name": "AI Chatbot",
     "description": "Enhance customer engagement and provide instant, 24/7 support with an intelligent, conversational AI.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/caramel-ai-chatbot.png",
@@ -34,13 +34,13 @@
       "Automated Support"
     ],
     "version": "1.0.0",
-    "lastUpdated": "2025-06-06",
+    "lastUpdated": "2025-07-01",
     "status": "Live",
     "category": "Chatbot",
     "ai_engineer": "RR"
   },
   {
-    "id": "app-unique-003",
+    "id": "app-id-003",
     "name": "RAG Bot",
     "description": "Leverage Retrieval-Augmented Generation to provide accurate, context-aware answers from your private knowledge base.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Caramel%20AI%20The%20RAG%20BOT.png",
@@ -52,14 +52,14 @@
       "Enterprise Search"
     ],
     "version": "1.0.0",
-    "lastUpdated": "2025-06-13",
+    "lastUpdated": "2025-07-01",
     "status": "Live",
     "category": "RAG Bot",
     "ai_engineer": "RR"
   },
   {
-    "id": "app-unique-004",
-    "name": "Automated Meeting Scheduling",
+    "id": "app-id-004",
+    "name": "AI Meeting Schedular",
     "description": "Streamline your scheduling process, save time, and eliminate back-and-forth emails with an intelligent meeting scheduler.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_powered_meeting_scheduler.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai_meeting_schedular/",
@@ -69,33 +69,33 @@
       "Productivity Tool",
       "Calendar Management"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-005",
-    "name": "Chatbot for Internal IT Support",
+    "id": "app-id-005",
+    "name": "IT Support Chatbot",
     "description": "Provide instant IT assistance to your employees, resolve common issues automatically, and reduce helpdesk workload with a dedicated IT chatbot.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/chatbot_it_support.png",
-    "appUrl": "https://apps.hereandnowai.com/apps/it_support_chatbot",
+    "appUrl": "apps.hereandnowai.com/apps/it_support_chatbot",
     "tags": [
       "IT Support",
       "Helpdesk Automation",
       "Internal Chatbot",
       "Employee Support"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-006",
-    "name": "Automated Document Classification & Routing",
+    "id": "app-id-006",
+    "name": "Docintel AI Document Classifie",
     "description": "Automatically categorize and route your business documents to the right teams and workflows, ensuring efficiency and accuracy.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_document_classifier.png",
     "appUrl": "https://apps.hereandnowai.com/apps/docintel_ai_document_classifier/",
@@ -105,15 +105,15 @@
       "AI for Documents",
       "Business Process Automation"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-007",
-    "name": "Automated Email Filtering",
+    "id": "app-id-007",
+    "name": "AI Email Filter",
     "description": "Organize your inbox and prioritize important messages with an AI-powered email filter that learns from your behavior.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_email_filtering.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai_email_filter/",
@@ -123,15 +123,15 @@
       "AI Productivity",
       "Spam Filter"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-008",
-    "name": "Sentiment Analysis of Employee Feedback",
+    "id": "app-id-008",
+    "name": "Employee Sentiment Analysis",
     "description": "Gain valuable insights into employee morale and satisfaction by automatically analyzing sentiment in feedback and surveys.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/sentiment_analysis_for_employee_feedback.png",
     "appUrl": "https://apps.hereandnowai.com/apps/employee_sentiment_analysis/",
@@ -141,15 +141,33 @@
       "HR Analytics",
       "Voice of the Employee"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Ananthi"
   },
   {
-    "id": "app-unique-010",
-    "name": "Automated Report Generation",
+    "id": "app-id-009",
+    "name": "Predictive Analytics for Attrition",
+    "description": "Proactively identify employees at risk of leaving with powerful predictive analytics to improve retention strategies.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Predictive%20Analytics%20for%20Attrition.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/predictive-analytics-for-attrition",
+    "tags": [
+      "Predictive Analytics",
+      "Employee Attrition",
+      "HR Tech",
+      "Workforce Analytics"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Business Administration",
+    "ai_engineer": "Shalini"
+  },
+  {
+    "id": "app-id-010",
+    "name": "AI Automated Report Generation",
     "description": "Save countless hours by automating the creation of detailed business reports, from data collection to final presentation.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/automated_report_generator.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai_automated_report_generation/",
@@ -159,15 +177,15 @@
       "Data Analytics",
       "Automated Reporting"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-011",
-    "name": "Fraud Detection in Expense Reports",
+    "id": "app-id-011",
+    "name": "Expenses Fraud Detection",
     "description": "Automatically detect and flag fraudulent or non-compliant expense claims, ensuring financial integrity and policy adherence.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/fraud_detection_in_expenses_report.png",
     "appUrl": "https://apps.hereandnowai.com/apps/expenses_fraud_detection/",
@@ -177,15 +195,15 @@
       "FinTech",
       "Compliance"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-012",
-    "name": "Process Mining",
+    "id": "app-id-012",
+    "name": "Process Miner",
     "description": "Discover, monitor, and improve real business processes by analyzing event data from your information systems.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/process_mining.png",
     "appUrl": "https://apps.hereandnowai.com/apps/process_miner/",
@@ -195,15 +213,15 @@
       "Operational Excellence",
       "Data Analytics"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-013",
-    "name": "RPA for Repetitive Tasks",
+    "id": "app-id-013",
+    "name": "RPA Assistant",
     "description": "Automate mundane, rule-based tasks across your organization with Robotic Process Automation to boost productivity and reduce errors.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/RPA_repetitive_task_thumbnail.png",
     "appUrl": "https://apps.hereandnowai.com/apps/rpa_assistant/",
@@ -213,15 +231,15 @@
       "Business Process Automation",
       "Repetitive Tasks"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-014",
-    "name": "Knowledge Management: AI-powered search",
+    "id": "app-id-014",
+    "name": "Knowledge Management",
     "description": "Unlock your organization's collective knowledge with an intelligent search solution that understands natural language queries.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/knowledge_management.png",
     "appUrl": "https://apps.hereandnowai.com/apps/knowledge_management",
@@ -231,14 +249,14 @@
       "Enterprise Search",
       "Semantic Search"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-015",
+    "id": "app-id-015",
     "name": "Automated Content Summarization",
     "description": "Instantly generate concise and accurate summaries of long articles, reports, and documents to save time and extract key insights.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/AUTOMATED%20CONTENT%20SUMMARIZATION.png",
@@ -249,15 +267,15 @@
       "Text Summarizer",
       "Productivity"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-016",
-    "name": "Automated Translation Services",
+    "id": "app-id-016",
+    "name": "Automated Translator Service",
     "description": "Break language barriers with fast, accurate, and context-aware automated translation for all your business needs.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Automation%20Translation%20Service.png",
     "appUrl": "https://apps.hereandnowai.com/apps/automated-translator-service",
@@ -267,14 +285,14 @@
       "Language Services",
       "Multilingual Content"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-017",
+    "id": "app-id-017",
     "name": "Predictive Maintenance for Office Equipment",
     "description": "Minimize downtime and reduce costs by predicting when office equipment will require maintenance or replacement.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Predictive%20Maintenance%20for%20Office%20Equipment.png",
@@ -285,15 +303,15 @@
       "Smart Office",
       "Equipment Management"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-17",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "sakthi"
   },
   {
-    "id": "app-unique-018",
-    "name": "Smart Building Management",
+    "id": "app-id-018",
+    "name": "Smart Building Manager",
     "description": "Optimize energy consumption, enhance security, and improve occupant comfort with an AI-driven smart building management system.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/smart_building_management.png",
     "appUrl": "https://apps.hereandnowai.com/apps/smart-building-manager",
@@ -303,15 +321,15 @@
       "Energy Management",
       "Building Automation"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Business Administration",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-019",
-    "name": "AI Automated Invoice Creator",
+    "id": "app-id-019",
+    "name": "AI Invoice Creator",
     "description": "Generate professional and accurate invoices automatically, streamlining your billing process from start to finish.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_invoice_creator.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai_invoice_creator/",
@@ -321,15 +339,15 @@
       "Billing Software",
       "Accounting Tech"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-19",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-020",
-    "name": "AI Automated Invoice Processing",
+    "id": "app-id-020",
+    "name": "AI Invoice Processor",
     "description": "Automate the extraction, validation, and processing of incoming invoices, reducing manual data entry and errors.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/AI%20AUTOMATED%20INVOICE%20PROCESSING.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai_invoice_processor/",
@@ -339,17 +357,17 @@
       "OCR",
       "Accounting AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Accounting",
-    "ai_engineer": "Rashini"
+    "ai_engineer": "Shalini"
   },
   {
-    "id": "app-unique-021",
-    "name": "Fraud Detection in Financial Transactions",
+    "id": "app-id-021",
+    "name": "Fraud Detection Financial Transactions",
     "description": "Protect your business from financial fraud by using AI to monitor transactions in real-time and identify suspicious activity.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Fraud%20Detection%20in%20Financial%20Transactions.png",
     "appUrl": "https://apps.hereandnowai.com/apps/fraud_detection_financial_transactions/",
     "tags": [
       "Fraud Detection",
@@ -357,14 +375,14 @@
       "AI Security",
       "Transaction Monitoring"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-19",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-022",
+    "id": "app-id-022",
     "name": "Financial Forecasting",
     "description": "Generate accurate financial forecasts with AI-powered models to make smarter, data-driven business decisions.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/financial_forecasting.png",
@@ -375,15 +393,15 @@
       "Predictive Analytics",
       "Business Planning"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-023",
-    "name": "Tax Compliance Automation",
+    "id": "app-id-023",
+    "name": "Tax Compliance Assistant",
     "description": "Simplify tax compliance with an automated solution that ensures accuracy, timeliness, and adherence to the latest regulations.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/tax_compliance_automation.png",
     "appUrl": "https://apps.hereandnowai.com/apps/tax_compliance_assistant/",
@@ -393,15 +411,33 @@
       "Compliance Software",
       "Accounting AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-025",
-    "name": "Credit Risk Assessment",
+    "id": "app-id-024",
+    "name": "Automated Reconciliation of Bank Statements",
+    "description": "Automate the tedious process of reconciling bank statements with your financial records, ensuring accuracy and saving time.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Automated%20Reconciliation%20of%20Bank%20Statements.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/automated-reconciliation-of-bank-statements",
+    "tags": [
+      "Bank Reconciliation",
+      "Accounting Automation",
+      "FinTech",
+      "Bookkeeping"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Accounting",
+    "ai_engineer": "Sakthi"
+  },
+  {
+    "id": "app-id-025",
+    "name": "AI Credit Risk Assessor",
     "description": "Make more informed lending decisions with an AI-powered tool that provides accurate and instant credit risk assessments.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/credit_risk_assesment.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai-credit-risk-assessor",
@@ -411,17 +447,17 @@
       "FinTech",
       "Risk Management"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-20",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-026",
-    "name": "Anomaly Detection in Financial Data",
+    "id": "app-id-026",
+    "name": "Financial Anomaly Detector AI",
     "description": "Identify unusual patterns and outliers in your financial data that may indicate errors, fraud, or unique opportunities.",
-    "imageUrl": null,
+    "imageUrl": "https://dckgg7d4uyr4p.cloudfront.net/Bayshore-Blog-31.01.2022-672x372.png",
     "appUrl": "https://apps.hereandnowai.com/apps/financial-anomaly-detector-ai",
     "tags": [
       "Anomaly Detection",
@@ -429,17 +465,17 @@
       "AI Security",
       "Data Integrity"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-20",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-027",
+    "id": "app-id-027",
     "name": "Auditing Automation",
     "description": "Streamline your auditing process with AI, automating data analysis, sample selection, and compliance checks for greater efficiency.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Auditing%20Automation.png",
     "appUrl": "https://apps.hereandnowai.com/apps/auditing-automation",
     "tags": [
       "Audit Automation",
@@ -447,14 +483,14 @@
       "RegTech",
       "Financial Compliance"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-028",
+    "id": "app-id-028",
     "name": "Automated Journal Entry Creation",
     "description": "Reduce manual data entry and ensure accuracy by automatically creating journal entries from your business transactions.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/AUTOMATED%20JOURNAL%20ENTRY%20CREATION.png",
@@ -465,15 +501,15 @@
       "Bookkeeping Automation",
       "ERP"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-029",
-    "name": "Predictive Analytics for Budgeting",
+    "id": "app-id-029",
+    "name": "Budget AI",
     "description": "Create more accurate and dynamic budgets by leveraging predictive analytics to forecast revenues and expenses.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Analytics%20Budgeting%20Like%20a%20Pro.png",
     "appUrl": "https://apps.hereandnowai.com/apps/budgetai",
@@ -483,15 +519,15 @@
       "AI Finance",
       "Corporate Finance"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-030",
-    "name": "AI Chatbot for Payroll/Benefits Q&A",
+    "id": "app-id-030",
+    "name": "Here and Now AI Payroll Assistant",
     "description": "Provide your employees with instant, 24/7 answers to their payroll and benefits questions through an intelligent AI chatbot.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_chatbot_payroll_benefits_qa.png",
     "appUrl": "https://apps.hereandnowai.com/apps/here-and-now-ai-payroll-assistant",
@@ -501,15 +537,15 @@
       "Benefits Administration",
       "Employee Self-Service"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-19",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-032",
-    "name": "Compliance Monitoring",
+    "id": "app-id-032",
+    "name": "Here and Now AI Compliance Monitor",
     "description": "Continuously monitor transactions and activities for compliance with internal policies and external regulations using AI.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/compliance_monitoring.png",
     "appUrl": "https://apps.hereandnowai.com/apps/here-and-now-ai-compliance-monitor",
@@ -519,14 +555,14 @@
       "Risk Management",
       "AI Compliance"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-033",
+    "id": "app-id-033",
     "name": "Automated Financial Statement Prep",
     "description": "Automate the generation of key financial statements, including balance sheets, income statements, and cash flow statements.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/automated_financial_statement_prep.png",
@@ -537,17 +573,17 @@
       "Financial Reporting",
       "AI Finance"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-034",
+    "id": "app-id-034",
     "name": "AI Analysis of Lease Agreements",
     "description": "Automatically extract key terms, dates, and clauses from lease agreements to ensure compliance and optimize management.",
-    "imageUrl": null,
+    "imageUrl": "https://github.com/hereandnowai/images/blob/main/app-images/ai_analysis_lease_agreement.png?raw=true",
     "appUrl": "https://apps.hereandnowai.com/apps/ai-lease-analyzer",
     "tags": [
       "Lease Analysis",
@@ -555,14 +591,14 @@
       "LegalTech",
       "Real Estate Tech"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Accounting",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-035",
+    "id": "app-id-035",
     "name": "Personalized Advertising",
     "description": "Deliver highly targeted and personalized advertising campaigns by leveraging AI to analyze customer data and behavior.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/personalized_advertising_assistant.png",
@@ -573,17 +609,17 @@
       "AI Marketing",
       "Customer Targeting"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-16",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-036",
-    "name": "Sentiment Analysis of Social Media",
+    "id": "app-id-036",
+    "name": "Social Pulse",
     "description": "Monitor brand perception and customer feedback by analyzing sentiment across all major social media platforms in real-time.",
-    "imageUrl": "https://github.com/hereandnowai/images/blob/main/app-images/ai_analysis_lease_agreement.png?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/sentimental_analysis_social_media.png",
     "appUrl": "https://apps.hereandnowai.com/apps/social_pulse/",
     "tags": [
       "Social Media Analytics",
@@ -591,15 +627,15 @@
       "Brand Monitoring",
       "Marketing AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-037",
-    "name": "Predictive Customer Behavior Analysis",
+    "id": "app-id-037",
+    "name": "Customer Behavior Forecaster AI",
     "description": "Anticipate customer needs and actions by using predictive analytics to understand and forecast future behavior.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Predictive%20Customer%20Behavior%20Analysis.png",
     "appUrl": "https://apps.hereandnowai.com/apps/customer-behavior-forecaster-ai",
@@ -609,15 +645,15 @@
       "Marketing AI",
       "Customer Insights"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-16",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-038",
-    "name": "Automated Content Creation",
+    "id": "app-id-038",
+    "name": "Content Craft",
     "description": "Generate engaging and SEO-friendly marketing copy, blog posts, and social media updates with the power of generative AI.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/automated_content_creation.png",
     "appUrl": "https://apps.hereandnowai.com/apps/content_craft/",
@@ -627,15 +663,15 @@
       "Marketing Automation",
       "Copywriting"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-16",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-039",
-    "name": "Chatbot Customer Service",
+    "id": "app-id-039",
+    "name": "Here and Now AI Chatbot Customer Service",
     "description": "Provide instant, 24/7 customer service and support on your website and social channels with an intelligent marketing chatbot.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Chatbot%20Customer%20Service.png",
     "appUrl": "https://apps.hereandnowai.com/apps/hereandnow-ai---chatbot-customer-service",
@@ -645,14 +681,14 @@
       "Conversational Marketing",
       "Lead Generation"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-040",
+    "id": "app-id-040",
     "name": "Lead Scoring",
     "description": "Prioritize your sales efforts by automatically scoring leads based on their likelihood to convert, using predictive AI models.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/LEAD%20SCORING%20.png",
@@ -663,15 +699,15 @@
       "AI for Sales",
       "Predictive Lead Scoring"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-041",
-    "name": "Recommendation Engines",
+    "id": "app-id-041",
+    "name": " Market Recomendation",
     "description": "Increase sales and engagement by providing personalized product and content recommendations to your users.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/marketing_recommendation_engine.png",
     "appUrl": "https://apps.hereandnowai.com/apps/market_recomendation/",
@@ -681,15 +717,15 @@
       "E-commerce AI",
       "Machine Learning"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-043",
-    "name": "Dynamic Pricing Optimization",
+    "id": "app-id-043",
+    "name": "Dynamic Pricing",
     "description": "Maximize revenue and adapt to market changes with AI-driven dynamic pricing strategies for your products and services.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/dynamic_pricing_optimization.png",
     "appUrl": "https://apps.hereandnowai.com/apps/dynamic_pricing/",
@@ -699,15 +735,15 @@
       "Revenue Management",
       "E-commerce Optimization"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-044",
-    "name": "Marketing Campaign Optimization",
+    "id": "app-id-044",
+    "name": "Marketing Campaign Optimizer",
     "description": "Optimize your marketing campaigns in real-time with AI that analyzes performance data and provides actionable recommendations.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/marketing_campaign_optimizer.png",
     "appUrl": "https://apps.hereandnowai.com/apps/marketing_campaign_optimizer/",
@@ -717,15 +753,15 @@
       "ROI",
       "Performance Marketing"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-16",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-045",
-    "name": "Personalized Email Marketing",
+    "id": "app-id-045",
+    "name": "Email marketing Specialist",
     "description": "Boost open rates and conversions with AI-powered email campaigns that deliver personalized content to every subscriber.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/personalised_Email_Marketing_thumbnail.png",
     "appUrl": "https://apps.hereandnowai.com/apps/email_marketting_specialist/",
@@ -735,14 +771,32 @@
       "Marketing Automation",
       "AI Email"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-047",
+    "id": "app-id-046",
+    "name": "Influencer Marketing Identification",
+    "description": "Identify the most relevant and effective influencers for your brand using AI to analyze audience demographics and engagement.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/INFLUENCER%20MARKETING%20IDENTIFICATION.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/influencer-marketing-identification/",
+    "tags": [
+      "Influencer Marketing",
+      "AI Marketing",
+      "Social Media Analytics",
+      "Brand Partnerships"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Marketing",
+    "ai_engineer": "Rashini"
+  },
+  {
+    "id": "app-id-047",
     "name": "Marketing Mix Modeling",
     "description": "Determine the effectiveness of your marketing channels and optimize your budget allocation with sophisticated AI modeling.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/marketing_mix_modelling.png",
@@ -753,15 +807,15 @@
       "Marketing Analytics",
       "ROI Analysis"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-048",
-    "name": "Predictive Analytics for Customer LTV",
+    "id": "app-id-048",
+    "name": "Predictive Analytics Customer LTV",
     "description": "Forecast the lifetime value of your customers and tailor your marketing strategies to maximize long-term profitability.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Predictive%20Analytics%20for%20Customer%20LTV.png",
     "appUrl": "https://apps.hereandnowai.com/apps/predictive_analytics_customer_ltv/",
@@ -771,15 +825,15 @@
       "Predictive Analytics",
       "Retention Marketing"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-16",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-049",
-    "name": "Voice Search Optimization",
+    "id": "app-id-049",
+    "name": "Voice  Optimization",
     "description": "Optimize your content to be discovered through voice assistants like Alexa and Google Assistant, capturing a growing audience.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/voice_search_optimization_thubnail.png",
     "appUrl": "https://apps.hereandnowai.com/apps/voice_optimizer/#/content-analyzer",
@@ -789,17 +843,35 @@
       "Voice SEO",
       "AI Marketing"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Marketing",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-051",
-    "name": "Quality Control using Computer Vision",
+    "id": "app-id-050",
+    "name": "MaintAI",
+    "description": "Minimize equipment downtime and reduce operational costs by predicting maintenance needs before failures occur.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Mint.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/mainta-smart-predictive-maintenance-app",
+    "tags": [
+      "Predictive Maintenance",
+      "Industry 4.0",
+      "IIoT",
+      "Manufacturing AI"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-03",
+    "status": "Beta",
+    "category": "Production/Manufacturing",
+    "ai_engineer": "Manoj"
+  },
+  {
+    "id": "app-id-051",
+    "name": "Predictive Maintenance Assistant",
     "description": "Automate product inspection and identify defects with high accuracy using advanced computer vision technology.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/quality_control_using_computer_vision.png",
     "appUrl": "https://apps.hereandnowai.com/apps/predictive-maintenance-assistant",
     "tags": [
       "Computer Vision",
@@ -807,17 +879,71 @@
       "Manufacturing AI",
       "Defect Detection"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Production/Manufacturing",
     "ai_engineer": "Kawshik"
   },
   {
-    "id": "app-unique-059",
-    "name": "Predictive Analytics for Yield Optimization",
+    "id": "app-id-053",
+    "name": "Supply Chain Optimization",
+    "description": "Optimize your supply chain from end to end, improving logistics, inventory management, and demand forecasting with AI.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Supply%20Chain%20Optimization.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/supply-chain-optimizer",
+    "tags": [
+      "Supply Chain AI",
+      "Logistics Optimization",
+      "Inventory Management",
+      "Demand Forecasting"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Production/Manufacturing",
+    "ai_engineer": "naveen"
+  },
+  {
+    "id": "app-id-054",
+    "name": "Demand Forecasting",
+    "description": "Accurately predict product demand to optimize inventory levels, production schedules, and resource allocation.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Demand%20Forecasting.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/demand-forecasting",
+    "tags": [
+      "Demand Forecasting",
+      "Supply Chain Management",
+      "Predictive Analytics",
+      "Inventory Optimization"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Production/Manufacturing",
+    "ai_engineer": "naveen"
+  },
+  {
+    "id": "app-id-056",
+    "name": "Optiflow",
+    "description": "Analyze and optimize your manufacturing processes to improve efficiency, reduce waste, and increase throughput.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/OptiFlow.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/optiflow",
+    "tags": [
+      "Process Optimization",
+      "Manufacturing Excellence",
+      "Lean Manufacturing",
+      "AI Analytics"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-03",
+    "status": "Beta",
+    "category": "Production/Manufacturing",
+    "ai_engineer": "Manoj"
+  },
+  {
+    "id": "app-id-059",
+    "name": "Manufacturing Yield Optimizer",
     "description": "Maximize production yield by using predictive analytics to identify factors that impact quality and output.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/predictive_analytics_yeild_optimization.png",
     "appUrl": "https://apps.hereandnowai.com/apps/manufacturing-yield-optimizer",
     "tags": [
       "Yield Optimization",
@@ -825,14 +951,50 @@
       "Process Control",
       "Manufacturing AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Production/Manufacturing",
     "ai_engineer": "Kawshik"
   },
   {
-    "id": "app-unique-066",
+    "id": "app-id-060",
+    "name": "SmartScheduler",
+    "description": "Optimize your production schedules dynamically based on demand, resource availability, and operational constraints.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/SmartScheduler.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/smartscheduler",
+    "tags": [
+      "Production Scheduling",
+      "AI Planning",
+      "Smart Factory",
+      "Advanced Planning and Scheduling"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-03",
+    "status": "Beta",
+    "category": "Production/Manufacturing",
+    "ai_engineer": "Manoj"
+  },
+  {
+    "id": "app-id-061",
+    "name": "Automated Inventory Management",
+    "description": "Maintain optimal inventory levels with an AI system that automates tracking, ordering, and forecasting.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Automated%20Inventory%20Management.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/smart-inventory-management",
+    "tags": [
+      "Inventory Management",
+      "AI Supply Chain",
+      "Warehouse Automation",
+      "Stock Optimization"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Production/Manufacturing",
+    "ai_engineer": "naveen"
+  },
+  {
+    "id": "app-id-066",
     "name": "Predictive Failure Analysis",
     "description": "Predict potential failure modes in mechanical components and systems, enabling proactive design improvements and maintenance.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Predictive%20Failure%20Analysis.png",
@@ -843,15 +1005,15 @@
       "FEA",
       "Mechanical Engineering"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-20",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Mechanical Engineering",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-073",
-    "name": "Automated Root Cause Analysis",
+    "id": "app-id-073",
+    "name": "AI Powered Automated Root Cause Analysis",
     "description": "Automatically identify the root causes of mechanical failures and performance issues using AI-powered diagnostic tools.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/automated_root_cause_analysis.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai-powered-automated-root-cause-analysis",
@@ -861,15 +1023,15 @@
       "Failure Analysis",
       "Quality Engineering"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-20",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Mechanical Engineering",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-077",
-    "name": "Generative Design for Lightweighting",
+    "id": "app-id-077",
+    "name": "Generative Design For Lightweighting by Here and Now AI",
     "description": "Use generative design algorithms to create lightweight, high-performance mechanical parts optimized for strength and material usage.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/generative_design_lightweighting.png",
     "appUrl": "https://apps.hereandnowai.com/apps/generative-design-for-lightweighting-by-here-and-now-ai",
@@ -879,17 +1041,17 @@
       "Topology Optimization",
       "Additive Manufacturing"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-19",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Mechanical Engineering",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-095",
-    "name": "Automated Circuit Board Design",
+    "id": "app-id-095",
+    "name": "Agriboard Designer",
     "description": "Accelerate the design of complex circuit boards with AI tools that automate component placement and routing.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/automated_circuit_board_design.png",
     "appUrl": "https://apps.hereandnowai.com/apps/agriboard-designer",
     "tags": [
       "PCB Design",
@@ -897,17 +1059,17 @@
       "AI Electronics",
       "Hardware Acceleration"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Electronics Engineering",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-096",
+    "id": "app-id-096",
     "name": "Component Placement Optimization",
     "description": "Optimize the placement of components on a PCB for better performance, signal integrity, and thermal management.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/component_placement_optimization.png",
     "appUrl": "https://apps.hereandnowai.com/apps/component-placement-optimization",
     "tags": [
       "Component Placement",
@@ -915,15 +1077,15 @@
       "Signal Integrity",
       "EDA"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Electronics Engineering",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-112",
-    "name": "Disease Detection",
+    "id": "app-id-112",
+    "name": "Agrihealth AI",
     "description": "Identify crop diseases early through automated analysis of images from drones and field sensors.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/diesease_detection.png",
     "appUrl": "https://apps.hereandnowai.com/apps/agrihealth-ai",
@@ -933,14 +1095,14 @@
       "Computer Vision",
       "Plant Pathology"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Agriculture",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-114",
+    "id": "app-id-114",
     "name": "Weed Detection and Removal",
     "description": "Automatically identify weeds and enable targeted spraying or robotic removal, reducing herbicide use.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/weed_detection.png",
@@ -951,15 +1113,51 @@
       "Computer Vision",
       "Sustainable Farming"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Agriculture",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-117",
-    "name": "Weather Prediction",
+    "id": "app-id-115",
+    "name": "Soil Analysis and Optimization",
+    "description": "Analyze soil health and composition using AI to provide recommendations for optimal planting and treatment.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Soil%20Analysis%20and%20Optimization.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/soil-analysis-and-optimization",
+    "tags": [
+      "Soil Health",
+      "AgTech",
+      "AI Analytics",
+      "Smart Farming"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Agriculture",
+    "ai_engineer": "Manoj"
+  },
+  {
+    "id": "app-id-116",
+    "name": "Livestock Monitoring",
+    "description": "Monitor the health, behavior, and location of livestock using sensors and AI to improve animal welfare and farm productivity.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/LIVESTOCK%20%20MONITORING.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/livestock-monitoring",
+    "tags": [
+      "Livestock Management",
+      "AgTech",
+      "Animal Health",
+      "Smart Farming"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Agriculture",
+    "ai_engineer": "naveen"
+  },
+  {
+    "id": "app-id-117",
+    "name": "Weather Master",
     "description": "Get hyperlocal and accurate weather forecasts to optimize farming operations and mitigate risks.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_powered_weather_prediction.png",
     "appUrl": "https://apps.hereandnowai.com/apps/weather-master",
@@ -969,14 +1167,50 @@
       "AI Weather",
       "Climate Smart Agriculture"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Agriculture",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-121",
+    "id": "app-id-118",
+    "name": "AgriChain Optimizer",
+    "description": "Optimize the agricultural supply chain, from farm to table, reducing waste and improving efficiency.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Agrichain%20Optimizer.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/agrichain-optimizer",
+    "tags": [
+      "Agri-food Supply Chain",
+      "AgTech",
+      "Logistics",
+      "Food Traceability"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Agriculture",
+    "ai_engineer": "Shalini"
+  },
+  {
+    "id": "app-id-120",
+    "name": "AI Drone Farm Management",
+    "description": "Utilize AI-powered drones for crop monitoring, aerial spraying, and data collection to enhance farm management.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/AI%20Drone%20Farm%20Management.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/ai-drone-farm-management",
+    "tags": [
+      "Agricultural Drones",
+      "AI Drones",
+      "AgTech",
+      "Remote Sensing"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Agriculture",
+    "ai_engineer": "Avinash"
+  },
+  {
+    "id": "app-id-121",
     "name": "Planting Schedule Optimization",
     "description": "Determine the optimal planting schedule for various crops based on weather predictions, soil conditions, and market demand.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Planting%20Schedule%20Optimization.png",
@@ -987,15 +1221,33 @@
       "Smart Farming",
       "Crop Management"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Agriculture",
-    "ai_engineer": "Rashini"
+    "ai_engineer": "Rashini "
   },
   {
-    "id": "app-unique-125",
-    "name": "Personalized Travel Recommendations",
+    "id": "app-id-124",
+    "name": "Smart Irrigation Controller",
+    "description": "Automate and optimize irrigation by using AI to analyze real-time data on soil moisture and weather conditions.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/SMART%20%20IRRIGATIONSYSTE.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/smart-irrigation-controller",
+    "tags": [
+      "Smart Irrigation",
+      "Water Management",
+      "AgTech",
+      "Precision Agriculture"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Agriculture",
+    "ai_engineer": "naveen"
+  },
+  {
+    "id": "app-id-125",
+    "name": "Travelgenie AI Assistant",
     "description": "Provide travelers with personalized recommendations for flights, hotels, and activities based on their preferences and past behavior.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/personalized_travel_recommender.png",
     "appUrl": "https://apps.hereandnowai.com/apps/travelgenie-ai-assistant",
@@ -1005,15 +1257,15 @@
       "AI Travel",
       "Tourism Tech"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Travel/Tourism",
-    "ai_engineer": "Bilmia"
+    "ai_engineer": "Shalini"
   },
   {
-    "id": "app-unique-126",
-    "name": "Dynamic Pricing",
+    "id": "app-id-126",
+    "name": "Dynamic Pricing AI Agent",
     "description": "Optimize pricing for flights and hotels in real-time based on demand, seasonality, and competitor pricing.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/dynamic_princing_optimization.png",
     "appUrl": "https://apps.hereandnowai.com/apps/dynamic-pricing-ai-agent",
@@ -1023,15 +1275,15 @@
       "Revenue Management",
       "AI Pricing"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Travel/Tourism",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-127",
-    "name": "Chatbot Customer Service",
+    "id": "app-id-127",
+    "name": "Travelbot Here And Now AI",
     "description": "Offer 24/7 customer support for booking, inquiries, and travel assistance with an intelligent travel chatbot.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/chatot_customer_service.png",
     "appUrl": "https://apps.hereandnowai.com/apps/travelbot-here-and-now-ai",
@@ -1041,15 +1293,33 @@
       "Conversational AI",
       "Tourism Tech"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Travel/Tourism",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-129",
-    "name": "Optimized Route Planning",
+    "id": "app-id-128",
+    "name": "AI Travel Fraud Detector",
+    "description": "Prevent fraudulent bookings and payments in the travel industry with AI-powered fraud detection systems.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Fraud%20Detection%20Secure%20Your%20Bookings%20Now!.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/ai-travel-fraud-detector",
+    "tags": [
+      "Fraud Detection",
+      "Travel Security",
+      "FinTech",
+      "Booking Protection"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-03",
+    "status": "Beta",
+    "category": "Travel/Tourism",
+    "ai_engineer": "Avinash"
+  },
+  {
+    "id": "app-id-129",
+    "name": "Route Planner Here And Now AI",
     "description": "Provide travelers with the most efficient and scenic routes for their journeys, considering traffic, closures, and points of interest.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/optimized_route_planning.png",
     "appUrl": "https://apps.hereandnowai.com/apps/route-planner-here-and-now-ai",
@@ -1059,15 +1329,15 @@
       "AI Navigation",
       "Smart Tourism"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Travel/Tourism",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-131",
-    "name": "Sentiment Analysis (Customer Reviews)",
+    "id": "app-id-131",
+    "name": "Tourism Sentiment Analyzer",
     "description": "Analyze customer reviews from multiple platforms to gain insights into traveler satisfaction and improve services.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/sentiment_analysis_customer_service.png",
     "appUrl": "https://apps.hereandnowai.com/apps/tourism-sentiment-analyzer",
@@ -1077,15 +1347,33 @@
       "Hospitality Tech",
       "Customer Feedback"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Travel/Tourism",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-133",
-    "name": "Demand Forecasting",
+    "id": "app-id-132",
+    "name": "Personalized Itineraries",
+    "description": "Automatically create customized travel itineraries for users based on their interests, budget, and time constraints.",
+    "imageUrl": "",
+    "appUrl": "https://apps.hereandnowai.com/apps/personalized-itineraries",
+    "tags": [
+      "Itinerary Planner",
+      "AI Travel Agent",
+      "Personalized Travel",
+      "Trip Planning"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Travel/Tourism",
+    "ai_engineer": "Shalini"
+  },
+  {
+    "id": "app-id-133",
+    "name": "Travel Demand Forecaster AI",
     "description": "Forecast travel demand for specific destinations, flights, and hotels to optimize resource allocation and pricing.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/demand_forecasting.png",
     "appUrl": "https://apps.hereandnowai.com/apps/travel-demand-forecaster-ai",
@@ -1095,15 +1383,69 @@
       "Tourism Management",
       "Predictive Analytics"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Travel/Tourism",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-140",
-    "name": "Dental Appointment Fixing App",
+    "id": "app-id-134",
+    "name": "Real-Time Voice Translator",
+    "description": "Provide real-time translation services for travelers to overcome language barriers during their trips.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_translation_services.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/real-time-voice-translator",
+    "tags": [
+      "AI Translation",
+      "Travel Tech",
+      "Language Services",
+      "Tourism AI"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Travel/Tourism",
+    "ai_engineer": "Bilmia"
+  },
+  {
+    "id": "app-id-137",
+    "name": "Personalized Restaurant Recommendations",
+    "description": "Offer personalized restaurant recommendations to travelers based on their location, cuisine preferences, and budget.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Personalized%20Restaurant%20Recommendations.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/personalized-restaurant-recommendations",
+    "tags": [
+      "Restaurant Recommendations",
+      "Food Tech",
+      "AI Personalization",
+      "Travel Guide"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Travel/Tourism",
+    "ai_engineer": "Raja"
+  },
+  {
+    "id": "app-id-138",
+    "name": "Fraud Detection in Insurance Claims",
+    "description": "Detect and prevent fraudulent travel insurance claims with AI-powered analysis of claim data and user behavior.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Fraud%20Detection%20(Insurance).png",
+    "appUrl": "https://apps.hereandnowai.com/apps/fraud-detection-in-insurance-claims",
+    "tags": [
+      "Insurance Fraud",
+      "InsurTech",
+      "AI Security",
+      "Fraud Analytics"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Travel/Tourism",
+    "ai_engineer": "Sakthi"
+  },
+  {
+    "id": "app-id-140",
+    "name": "Dental Care",
     "description": "Simplify dental appointment scheduling with an intelligent app that finds and books available slots for patients.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Dental%20Appointment%20Fixing%20App.png",
     "appUrl": "https://apps.hereandnowai.com/apps/dental_care/",
@@ -1113,15 +1455,15 @@
       "Dental Tech",
       "Patient Engagement"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Healthcare",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-141",
-    "name": "Disease Diagnosis",
+    "id": "app-id-141",
+    "name": "AI Medical Assistant",
     "description": "Assist healthcare professionals in diagnosing diseases more accurately and efficiently by analyzing medical data and images.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/disease_diagonosis.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai-medical-assistant",
@@ -1131,15 +1473,15 @@
       "HealthTech",
       "Clinical Decision Support"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Healthcare",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-142",
-    "name": "Drug Discovery",
+    "id": "app-id-142",
+    "name": "AI Drug Discovery Accelerator",
     "description": "Accelerate the process of discovering and developing new drugs by using AI to analyze biological data and predict compound efficacy.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_drug_discovery.png",
     "appUrl": "https://apps.hereandnowai.com/apps/ai-drug-discovery-accelerator",
@@ -1149,17 +1491,125 @@
       "BioTech",
       "Computational Biology"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-22",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Healthcare",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-150",
-    "name": "Virtual Patient Assistants",
+    "id": "app-id-143",
+    "name": "Personalized Medicine AI Advisor",
+    "description": "Tailor medical treatment and prescriptions to individual patients based on their genetic makeup and lifestyle data.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Personalized%20%20Medicine%20AI%20Advisor.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/personalized-medicine-ai-advisor",
+    "tags": [
+      "Personalized Medicine",
+      "Precision Medicine",
+      "Genomic AI",
+      "HealthTech"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "sakthi"
+  },
+  {
+    "id": "app-id-145",
+    "name": "Patient Monitoring",
+    "description": "Remotely monitor patients' vital signs and health status using wearable devices and AI analytics.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Patient%20Monitoring.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/patient-monitoring",
+    "tags": [
+      "Remote Patient Monitoring",
+      "RPM",
+      "Digital Health",
+      "Wearable Tech"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "sakthi"
+  },
+  {
+    "id": "app-id-146",
+    "name": "Administrative Automation",
+    "description": "Automate administrative tasks in hospitals and clinics, such as scheduling, billing, and record-keeping.",
+    "imageUrl": "",
+    "appUrl": "https://apps.hereandnowai.com/apps/administrative-automation",
+    "tags": [
+      "Healthcare Automation",
+      "RPA in Healthcare",
+      "Health Admin",
+      "EMR"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-03",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "sakthi"
+  },
+  {
+    "id": "app-id-147",
+    "name": "Medical Image Analysis",
+    "description": "Automatically analyze medical images like X-rays, CT scans, and MRIs to detect abnormalities and assist radiologists.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/medical_image_analysis.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/medical-image-analysis",
+    "tags": [
+      "Medical Imaging",
+      "AI Radiology",
+      "Computer Vision",
+      "HealthTech"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "Naveen"
+  },
+  {
+    "id": "app-id-148",
+    "name": "Predictive Readmission Risk",
+    "description": "Predict the likelihood of patient readmission to hospitals, allowing for proactive interventions and better care.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/predictive_analytics_readmissions.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/predictive-readmission-risk",
+    "tags": [
+      "Predictive Analytics",
+      "Hospital Readmission",
+      "Population Health",
+      "Healthcare AI"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "Arlin"
+  },
+  {
+    "id": "app-id-149",
+    "name": "AI Triage Systems",
+    "description": "Prioritize patient care in emergency rooms and clinics with AI-powered triage systems that assess urgency.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/AI%20Triage%20Systems%20for%20Patient%20Care%20Today.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/ai-triage-system",
+    "tags": [
+      "AI Triage",
+      "Emergency Medicine",
+      "HealthTech",
+      "Clinical Workflow"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-04",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "Avinash"
+  },
+  {
+    "id": "app-id-150",
+    "name": "Medi Buddy AI",
     "description": "Provide patients with 24/7 support, medication reminders, and health information through a virtual assistant.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/virtual_patient_assistant.png",
     "appUrl": "https://apps.hereandnowai.com/apps/medi-buddy-ai",
     "tags": [
       "Virtual Health Assistant",
@@ -1167,15 +1617,15 @@
       "Digital Health",
       "Conversational AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Healthcare",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-151",
-    "name": "Risk Factors for Diseases",
+    "id": "app-id-151",
+    "name": "health-guard-ai",
     "description": "Identify and analyze risk factors for various diseases within a population to inform public health strategies.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/risk_factor_analysis.png",
     "appUrl": "https://apps.hereandnowai.com/apps/health-guard-ai",
@@ -1185,17 +1635,35 @@
       "Risk Stratification",
       "Public Health AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-23",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Healthcare",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-153",
-    "name": "Patient No-Show Predictions",
+    "id": "app-id-152",
+    "name": "Medical Claims RPA",
+    "description": "Automate the processing of medical claims to reduce errors, accelerate payments, and improve efficiency.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/medical_claims_rpa.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/medical-claims-rpa",
+    "tags": [
+      "Claims Processing",
+      "RPA",
+      "Healthcare Finance",
+      "Revenue Cycle Management"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "sakthi"
+  },
+  {
+    "id": "app-id-153",
+    "name": "Patient No Show Predictor",
     "description": "Predict which patients are likely to miss their appointments, enabling clinics to implement proactive reminders and reduce no-shows.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/patient%20no-show%20prediction%20Thumbnail.png",
     "appUrl": "https://apps.hereandnowai.com/apps/patient-no-show-predictor",
     "tags": [
       "Patient No-Show",
@@ -1203,14 +1671,32 @@
       "Appointment Scheduling",
       "Clinic Management"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Healthcare",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-157",
+    "id": "app-id-155",
+    "name": "Medical Document Translation",
+    "description": "Provide accurate and secure translation of medical documents, patient records, and clinical trial information.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/MEDICAL%20DOCUMENT%20TRANSLATION.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/medical-document-translation",
+    "tags": [
+      "Medical Translation",
+      "AI Translation",
+      "HealthTech",
+      "Global Health"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-03",
+    "status": "Beta",
+    "category": "Healthcare",
+    "ai_engineer": "sakthi"
+  },
+  {
+    "id": "app-id-157",
     "name": "Chatbot for HR Queries",
     "description": "Provide employees with instant answers to their HR-related questions about policies, benefits, and leave.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/chatbot_hr_queries.png",
@@ -1221,17 +1707,17 @@
       "HR Automation",
       "Conversational AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-22",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-158",
+    "id": "app-id-158",
     "name": "Employee Performance Monitoring",
     "description": "Track and analyze employee performance metrics with AI to provide objective insights and identify development opportunities.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Employee%20Performance%20Monitoring.png",
     "appUrl": "https://apps.hereandnowai.com/apps/employee-performance-monitoring",
     "tags": [
       "Performance Management",
@@ -1239,15 +1725,15 @@
       "Workforce Analytics",
       "People Analytics"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-22",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Sakthi"
   },
   {
-    "id": "app-unique-159",
-    "name": "Talent Management",
+    "id": "app-id-159",
+    "name": "Talent Management AI Platform",
     "description": "Optimize your talent management strategy, from succession planning to leadership development, with AI-driven insights.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/talent_management.png",
     "appUrl": "https://apps.hereandnowai.com/apps/talent-management-ai-platform",
@@ -1257,15 +1743,15 @@
       "Succession Planning",
       "Workforce Planning"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-160",
-    "name": "Personalized Learning Paths",
+    "id": "app-id-160",
+    "name": "Skill Route",
     "description": "Create personalized learning and development paths for employees based on their skills, career goals, and performance data.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/personalized_learning_path.png",
     "appUrl": "https://apps.hereandnowai.com/apps/skill-route",
@@ -1275,15 +1761,15 @@
       "EdTech",
       "Employee Development"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Bilmia"
   },
   {
-    "id": "app-unique-161",
-    "name": "Employee Sentiment Insight Engine (ESIE)",
+    "id": "app-id-161",
+    "name": "Employee Sentiment Insight Engine",
     "description": "Analyze employee survey responses to gauge morale, identify key concerns, and measure the impact of HR initiatives.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/sentiment_analysis_employee_surveys.png",
     "appUrl": "https://apps.hereandnowai.com/apps/employee-sentiment-insight-engine",
@@ -1293,15 +1779,15 @@
       "Voice of the Employee",
       "HR Surveys"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-162",
-    "name": "Predictive Analytics (Attrition)",
+    "id": "app-id-162",
+    "name": "Employee Attrition Prediction System",
     "description": "Proactively identify employees who are at risk of leaving and implement targeted retention strategies to reduce turnover.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/predictive_analytics_attrition.png",
     "appUrl": "https://apps.hereandnowai.com/apps/employee-attrition-prediction-system",
@@ -1311,15 +1797,123 @@
       "Employee Retention",
       "Workforce Planning"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-22",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-169",
-    "name": "Personalized Career Recommendations",
+    "id": "app-id-163",
+    "name": "Automated Onboarding",
+    "description": "Streamline the new hire onboarding process with automated workflows, document management, and personalized experiences.",
+    "imageUrl": "",
+    "appUrl": "https://apps.hereandnowai.com/apps/automated-onboarding",
+    "tags": [
+      "Employee Onboarding",
+      "HR Automation",
+      "New Hire Experience",
+      "HR Tech"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Human Resources",
+    "ai_engineer": "sakthi"
+  },
+  {
+    "id": "app-id-164",
+    "name": "AI-Driven Skills Gap Analysis",
+    "description": "Identify the skills gap within your organization to inform your training programs and strategic hiring decisions.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/AI-Driven%20Skills%20Gap%20Analysis.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/ai-driven-skills-gap-analysis",
+    "tags": [
+      "Skills Gap Analysis",
+      "Workforce Planning",
+      "Talent Development",
+      "HR Analytics"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Human Resources",
+    "ai_engineer": "Sakthi"
+  },
+  {
+    "id": "app-id-165",
+    "name": "High-Potential Employees",
+    "description": "Identify high-potential employees within your organization using predictive analytics to nurture future leaders.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/high_potential_employees.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/high-potential-employees",
+    "tags": [
+      "High-Potential Employees",
+      "HiPo",
+      "Talent Identification",
+      "Succession Planning"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Human Resources",
+    "ai_engineer": "Arlin"
+  },
+  {
+    "id": "app-id-166",
+    "name": "Compensation Planning",
+    "description": "Optimize your compensation and benefits packages by analyzing market data and internal equity with AI-powered tools.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/Compensation%20Planning.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/compensation-planning",
+    "tags": [
+      "Compensation Planning",
+      "CompTech",
+      "HR Analytics",
+      "Total Rewards"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Human Resources",
+    "ai_engineer": "Sakthi"
+  },
+  {
+    "id": "app-id-167",
+    "name": "Benefit Question Chatbots",
+    "description": "Deploy a dedicated chatbot to answer employee questions about their benefits plans, enrollment, and claims.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/benefits_qa_chatbot.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/benefit-question-chatbots",
+    "tags": [
+      "Benefits Chatbot",
+      "HR Support",
+      "Employee Benefits",
+      "HR Automation"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Human Resources",
+    "ai_engineer": "Adhithya"
+  },
+  {
+    "id": "app-id-168",
+    "name": "Review Sentiment Analysis",
+    "description": "Analyze sentiment from performance reviews to identify trends, biases, and areas for managerial improvement.",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/review_sentimental_analysis.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/review-sentiment-analyzer",
+    "tags": [
+      "Performance Review",
+      "Sentiment Analysis",
+      "People Analytics",
+      "HR Insights"
+    ],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "Human Resources",
+    "ai_engineer": "Naveen"
+  },
+  {
+    "id": "app-id-169",
+    "name": "Personalized Career Pathing Here and Now AI",
     "description": "Provide employees with personalized career path recommendations within the organization based on their skills and aspirations.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/personalized_career_recommendations.png",
     "appUrl": "https://apps.hereandnowai.com/apps/personalized-career-pathing-here-and-now-ai",
@@ -1329,17 +1923,17 @@
       "Talent Mobility",
       "HR Tech"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
-    "status": "assigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Arlin"
   },
   {
-    "id": "app-unique-170",
-    "name": "Interview Scheduling Automation",
+    "id": "app-id-170",
+    "name": "Interview Scheduler AI",
     "description": "Automate the complex process of scheduling interviews between candidates, recruiters, and hiring managers.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/interview_scheduling_automation.png",
     "appUrl": "https://apps.hereandnowai.com/apps/interview-scheduler-ai",
     "tags": [
       "Interview Scheduling",
@@ -1347,17 +1941,17 @@
       "Talent Acquisition",
       "HR Tech"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-23",
-    "status": "unassigned",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Human Resources",
     "ai_engineer": "Naveen"
   },
   {
-    "id": "app-unique-171",
-    "name": "AI Chatbot for HN Language Institute",
+    "id": "app-id-171",
+    "name": "HERE AND NOW Languages-Assistant",
     "description": "Provide instant information and support to prospective students of the HN Language Institute with a dedicated AI chatbot.",
-    "imageUrl": null,
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/ai_chatbot_hn_language_institute.png",
     "appUrl": "https://apps.hereandnowai.com/apps/here-and-now-languages-assistant",
     "tags": [
       "Language Institute",
@@ -1365,18 +1959,18 @@
       "Student Recruitment",
       "Conversational AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-15",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Customer Service",
     "ai_engineer": "Adhithya"
   },
   {
-    "id": "app-unique-172",
-    "name": "Customer Support AI Chatbot for a BIM Company",
+    "id": "app-id-172",
+    "name": "Comfotec Customer Service Chatbot",
     "description": "Empower your AEC clients with our specialized AI Chatbot for BIM companies. This intelligent assistant provides instant, 24/7 support for technical queries, software workflows, and licensing questions. By understanding industry-specific terminology, it resolves issues faster, navigates users to relevant knowledge base articles, and frees up your expert support team for high-priority cases, boosting overall customer satisfaction.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/customer_bot_bim_company.png",
-    "appUrl": "https://apps.hereandnowai.com/apps/comfotech/",
+    "appUrl": "https://apps.hereandnowai.com/apps/comfotec-customer-service-chatbot",
     "tags": [
       "BIM Support",
       "AI Chatbot",
@@ -1387,15 +1981,15 @@
       "Helpdesk Automation",
       "Conversational AI"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-18",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Beta",
     "category": "Customer Service",
     "ai_engineer": "Rashini, Adhithya"
   },
   {
-    "id": "app-unique-174",
-    "name": "HerPath",
+    "id": "app-id-174",
+    "name": "Her Path",
     "description": "HerPathway is a comprehensive mobile app empowering underprivileged women and female students through education, skill development, financial literacy, and career opportunities. ",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/her_path.png",
     "appUrl": "https://apps.hereandnowai.com/apps/her_path",
@@ -1413,15 +2007,15 @@
       "Social Impact",
       "Gender Equality"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-19",
-    "status": "completed",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
     "category": "Social Service",
     "ai_engineer": "Rashini"
   },
   {
-    "id": "app-unique-176",
-    "name": "ITR Assistant",
+    "id": "app-id-176",
+    "name": "ITR",
     "description": "Streamline your tax season with the ITR Assistant by HERE AND NOW AI. This powerful, secure tool automates the tedious process of collecting documents for your Income Tax Return (ITR). It connects to your Gmail, automatically finds password-protected financial statements (Bank, Credit Card, Demat & more), decrypts them, and organizes everything into neat folders in your Google Drive. Stop wasting hours on manual downloads and focus on what matters. Built for tax professionals and individuals who value speed and security. Your data never leaves your Google account, ensuring 100% privacy.",
     "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/itr-assistant.png",
     "appUrl": "https://itr.hereandnowai.com",
@@ -1432,11 +2026,23 @@
       "Tax Consultant Tool",
       "Financial Statement Organizer"
     ],
-    "version": "1.0.0",
-    "lastUpdated": "2025-06-20",
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
     "status": "Live",
     "category": "Finance",
     "ai_engineer": "RR"
+  },
+  {
+    "id": "app-id-179",
+    "name": "HERE AND NOW AI Command Center",
+    "description": "",
+    "imageUrl": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/app-images/image_creation_mcp_server.png",
+    "appUrl": "https://apps.hereandnowai.com/apps/here-and-now-ai-command-center/",
+    "tags": [],
+    "version": "0.1.0",
+    "lastUpdated": "2025-07-01",
+    "status": "Beta",
+    "category": "",
+    "ai_engineer": ""
   }
 ]
-

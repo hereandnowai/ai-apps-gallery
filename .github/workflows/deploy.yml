@@ -21,10 +21,16 @@ jobs:
       run: |
         sed -i 's|href="/|href="./|g' dist/index.html
         sed -i 's|src="/|src="./|g' dist/index.html
+    - name: Network Diagnostics
+      run: |
+        echo "Pinging ${{ secrets.FTP_HOST }}..."
+        ping -c 4 ${{ secrets.FTP_HOST }}
+        echo "Testing port 3000 on ${{ secrets.FTP_HOST }} with nc..."
+        nc -vz ${{ secrets.FTP_HOST }} 3000
     - name: Upload to FTP
       run: |
         sudo apt-get -y install lftp
-        lftp -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} -p 3000 ${{ secrets.FTP_HOST }} <<FTP_EOF
+        lftp -d -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} -p 3000 ${{ secrets.FTP_HOST }} <<FTP_EOF
         set ftp:ssl-allow no
         # Deploy main app (dist folder)
         mkdir -p /apps.hereandnowai.com/apps/${{ github.event.repository.name }}

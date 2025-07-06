@@ -1,37 +1,36 @@
-name: CI/CD Pipeline
+name: Build and Deploy to FTP
 
-on: 
+on:
   push:
-    branches: [ main ] # Adjust branch name if different (e.g., master)
-  pull_request:
-    branches: [ main ] # Adjust branch name if different
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v3
       with:
-        node-version: '20' # Or your preferred Node.js version
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build project
-      run: npm run build
-
-    - name: Deploy to FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.0
-      with:
-        server: hexagonkomputers.in
-        username: hereanda # IMPORTANT: Change to secrets.FTP_USERNAME
-        password: Hereandnow@admin1 # IMPORTANT: Change to secrets.FTP_PASSWORD
-        local-dir: ./dist/
-        remote-dir: /public_html/apps.hereandnowai.com/ # Verify this is the correct path on your FTP server
-        protocol: ftp
-        state-name: .ftp-deploy-state.json
+        node-version: '20'
+    - run: npm install
+    - run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+    - run: npm run build
+    - name: Make Asset Paths Relative
+      run: |
+        sed -i 's|href="/|href="./|g' dist/index.html
+        sed -i 's|src="/|src="./|g' dist/index.html
+    - name: Upload to FTP
+      run: |
+        sudo apt-get -y install lftp
+        lftp -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} -p 3000 ${{ secrets.FTP_HOST }} <<FTP_EOF
+        set ftp:ssl-allow no
+        # Deploy main app (dist folder)
+        mkdir -p /apps.hereandnowai.com/apps/${{ github.event.repository.name }}
+        mirror -R --delete --verbose ./dist /apps.hereandnowai.com/apps/${{ github.event.repository.name }}
+        # Deploy public/data folder
+        mkdir -p /apps.hereandnowai.com/data/
+        mirror -R --delete --verbose ./public/data /apps.hereandnowai.com/data/
+        bye
+        FTP_EOF

@@ -46,3 +46,4 @@ jobs:
         mirror -R --delete --verbose ./public/data /apps.hereandnowai.com/data/
         bye
         FTP_EOF
+# Minor change to trigger new workflow run

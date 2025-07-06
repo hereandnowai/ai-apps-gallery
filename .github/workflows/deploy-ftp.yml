@@ -25,20 +25,24 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Deploy built files (dist) with SFTP (appleboy/scp-action)
-      uses: appleboy/scp-action@v1.0.0
+    - name: Deploy built files (dist) with FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.0
       with:
-        host: ${{ secrets.FTP_SERVER }}
+        server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        source: "./dist/*"
-        target: "${{ secrets.FTP_REMOTE_PATH }}"
+        local-dir: ./dist/
+        server-dir: ${{ secrets.FTP_REMOTE_PATH }}
+        protocol: ftp # Explicitly set protocol to FTP
+        log-level: debug # Enable debug logging for more details
 
-    - name: Deploy public/data with SFTP (appleboy/scp-action)
-      uses: appleboy/scp-action@v1.0.0
+    - name: Deploy public/data with FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.0
       with:
-        host: ${{ secrets.FTP_SERVER }}
+        server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        source: "./public/data/*"
-        target: "${{ secrets.FTP_REMOTE_PATH }}data/"
+        local-dir: ./public/data/
+        server-dir: ${{ secrets.FTP_REMOTE_PATH }}data/
+        protocol: ftp # Explicitly set protocol to FTP
+        log-level: debug # Enable debug logging for more details
